@@ -1,11 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	background-color: #F7F7F7;
+}
 .header {
 	width: 100%;
 	height: 70px;
 	margin: 0 auto 10px; /*上；左、右；下*/
 	overflow: hidden;
-	border: solid;
 }
 .logo {
 	width: 20%;
@@ -36,7 +38,8 @@
     width: 840px;
 	height: 240px;
     overflow: hidden;
-	border: solid;
+	background-color: #FFFFFF;
+	position: absolute;
 }
 
 .items {
@@ -52,7 +55,8 @@
 
 .item-pic {
 	overflow: hidden;
-    width: 30%;
+    width: 240px;
+	height: 160px;
     display: block;
     float: left;
     margin: 20px;
@@ -66,7 +70,57 @@
     float: left;
     margin: 20px;
     border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.17em;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 0px;
 }
 .item-title a{
 	text-decoration: none;
+	color: #555555;
+}
+.item-info {
+	width: 530px;
+	height: 105px;
+	float: left;
+	color: #888;
+}
+.item-foot {
+	width: 800px;
+    overflow: hidden;
+    clear: both;
+    margin: 0px 20px 20px 20px;
+    display: inline-block;
+    color: #838383;
+    font-size: 12px;
+}
+.lable {
+	background: url(./img/icon-01.png) no-repeat left center;
+	margin-right: 10px;
+	width: 87px;
+	height: 16px;
+}
+.lable a {
+	text-decoration: none;
+	color: #096;
+}
+.time {
+	background: url(./img/icon-02.png) no-repeat left center;
+	margin-right: 10px;
+}
+.viewnum {
+	background: url(./img/icon-02.png) no-repeat left center;
+}
+.viewnum a {
+	text-decoration: none;
+	color: #096;
+}
+.readmore {
+	float: right;
+}
+.readmore a{
+	text-decoration: none;
+	color: #096;
 }
