@@ -3,16 +3,29 @@
 body {
 	background-color: #F7F7F7;
 }
+* {
+	margin: 0;
+	padding: 0;
+}
 .header {
 	width: 100%;
 	height: 70px;
-	margin: 0 auto 10px; /*上；左、右；下*/
+	margin: 0 auto 20px; /*上；左、右；下*/
 	overflow: hidden;
+	background-color: #FFF;
 }
 .logo {
 	width: 20%;
 	float: left;
 	height: auto;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.logo a{
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	font-weight: 1000;
 }
 .nav {
 	width: 60%;
@@ -20,6 +33,11 @@ body {
 	height: auto;
 	list-style: none;
 	display: block;
+	margin-top: 25px;
+}
+.nav a{
+	text-decoration: none;
+	color: #000;
 }
 .nav ul {
 	list-style: none;
@@ -31,7 +49,10 @@ body {
 	text-decoration: none;
 }
 .user {
-	width: 20%;
+	margin-top: 25px;
+	width: 15%;
+	float: right;
+	color: cadetblue;
 }
 .item {
 	float: left;
@@ -39,12 +60,14 @@ body {
 	height: 240px;
     overflow: hidden;
 	background-color: #FFFFFF;
-	position: absolute;
+	margin-bottom: 10px;
+	display: block;
+	list-style: none;
 }
 
 .items {
 	width: 840px;
-	height: 3150px;
+	height: 2500px;
 	float: left;
 }
 
@@ -123,4 +146,36 @@ body {
 .readmore a{
 	text-decoration: none;
 	color: #096;
+}
+header {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.sidebar {
+	float: right;
+    width: 336px;
+	height: 3260px;
+    overflow: hidden;
+    position: relative;
+	margin-right: 160px;
+}
+
+.about {
+	height: 400px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+.search {
+	height: 70px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+.classify {
+	height: 250px;
+	background-color: #FFF;
+	margin-bottom: 20px;
 }
