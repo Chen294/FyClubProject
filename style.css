@@ -156,7 +156,7 @@ header {
 .sidebar {
 	float: right;
     width: 336px;
-	height: 3260px;
+	height: 2500px;
     overflow: hidden;
     position: relative;
 	margin-right: 160px;
@@ -178,4 +178,38 @@ header {
 	height: 250px;
 	background-color: #FFF;
 	margin-bottom: 20px;
+}
+
+.rank {
+	height: 600px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+.recommend {
+	height: 600px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+.link {
+	height: 115px;
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+
+.promote {
+	height: 334px;
+	background-color: #FFF;
+}
+
+.foot {
+	width: 100%;
+    background: #333;
+    color: #a5a4a4;
+    text-align: center;
+    padding: 20px 0;
+	margin-top: 20px;
+	bottom: 0px;
+	height: 20px;
 }
