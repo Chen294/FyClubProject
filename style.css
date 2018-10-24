@@ -73,6 +73,7 @@ body {
 
 .main {
 	width: 1200px;
+	height: 2600px;
 	margin: 0 auto;
 }
 
@@ -159,7 +160,6 @@ header {
 	height: 2500px;
     overflow: hidden;
     position: relative;
-	margin-right: 160px;
 }
 
 .about {
@@ -212,4 +212,8 @@ header {
 	margin-top: 20px;
 	bottom: 0px;
 	height: 20px;
+}
+.foot a{
+	text-decoration: none;
+	color: #a5a4a4;
 }
