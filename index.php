@@ -17,7 +17,7 @@
 	<!--top header-->
 	<header>
 		<div class="header">
-			<div class="logo"><a href="index">川大计算机论坛</a></div>
+			<div class="logo"><a href="index">无忧论坛</a></div>
 			<div class="nav">
 				<ul>
 					<li><a href="index.html">网站首页</a></li>
@@ -48,17 +48,17 @@ else
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -67,24 +67,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?$row[0]?>">'阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -93,24 +93,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -119,24 +119,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -145,24 +145,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -171,24 +171,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -197,24 +197,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -223,24 +223,24 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
 			<li class="item">
 				<?php $row=mysqli_fetch_array($result,MYSQLI_NUM);?>
 				<span class="item-pic">
-					<a href=""><img src="img/item-01.jpg" alt=""></a>
+					<a href="#"><img src="img/item-01.jpg" alt=""></a>
 				</span>
 				<span class="item-title">
-					<a href=""><?php echo($row[1]);?></a>
+					<a href="user/article/article.php?id=<?=$row[0]?>"><?php echo($row[1]);?></a>
 				</span>
 				<div class="item-info">
 					<?php echo($row[2]);?>
 				</div>
 				<div class="item-foot">
 					<span class="lable">
-						<a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3|Html5</a>
 					</span>
 					<span class="time">
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-05-04
@@ -249,7 +249,7 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="/">阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">阅读原文</a>
 					</div>
 				</div>
 			</li>
@@ -285,7 +285,7 @@ else
 	
 	<!--foot-->
 	<div class="foot">
-  		<p>Design by David Chan<a href="/"> @川大计算机论坛</a></p>
+  		<p>Design by David Chan<a href="#"> @无忧论坛</a></p>
 	</div>
 	
 	
