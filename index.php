@@ -20,7 +20,7 @@
 			<div class="logo"><a href="index">无忧论坛</a></div>
 			<div class="nav">
 				<ul>
-					<li><a href="index.html">网站首页</a></li>
+					<li><a href="index.php">网站首页</a></li>
 					<li><a href="#">问题求助</a></li>
 					<li><a href="#">技术专题</a></li>
 					<li><a href="#">学无止境</a></li>
@@ -67,7 +67,7 @@ else
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浏览&#40;<a href="/">0</a>&#41;
 					</span>
 					<div class="readmore">
-						<a href="user/article/article.php?id=<?$row[0]?>">'阅读原文</a>
+						<a href="user/article/article.php?id=<?=$row[0]?>">'阅读原文</a>
 					</div>
 				</div>
 			</li>

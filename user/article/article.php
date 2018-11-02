@@ -46,7 +46,7 @@ else
 	<div class="main">
 		<?php $row=mysqli_fetch_array($result,MYSQLI_NUM); ?>
 		<div class="article">
-			<h3 class="title"><?php echo $row[1] ?></h3>
+			<h3 class="title"><?php echo "$row[1]"; ?></h3>
 			<div class="author">
 				<span class="icon-01"><?php echo "$row[4]"; ?></span>
 				<span class="icon-02"><?php echo "$row[5]"; ?></span>
@@ -92,16 +92,6 @@ else
 	<div class="foot">
   		<p>Design by David Chan<a href="#"> @川大计算机论坛</a></p>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 </body>
 </html>
